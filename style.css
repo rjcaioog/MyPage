@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(45deg, #012340, #025939, #027333, #03A63C,#04D939);
+	height: 100vh;
+}
+
+cabecalho{   /* header */
+    width: 100vw;
+    height: 75px;
+    
+}
+
+i{ /* icone redes sociais */              
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 200px;
+    bottom: 35px;
+    padding: 10px;
+}
+
+i:hover{
+    font-weight: bold;
+}
+
+#icone_email{
+    font-size: 15px;
+}
+
+.logo img{ /* Logo girando */
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 480px;
+    float: left;
+    bottom: 75px;
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation { /* Key girando */
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+
+
+nav ul{ /* Barra menu */
+    text-align: center;
+    word-spacing: 40px;
+}
+
+nav ul li{ /* Barra menu */
+    display: inline-block;
+    margin-top: 30px;
+}
+
+nav ul li a{ /* Barra menu */
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-family: 'Sono', sans-serif;
+    font-size: 30px;
+
+}
+
+nav ul li:hover{ /* Barra menu sobreposição*/
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.line{ /* Linha horizontal */
+    border: 1px solid;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img{ /* Logo maior */
+    position: fixed;
+    width: 600px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+/* Article, title, article, p */
+section{
+    position: relative;
+    width: 600px;
+    float: right;
+    top: 150px;
+    right: 400px;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+
+small{
+    font-size: 15px;
+}
+
+/* FECHANDO  Article, title, article, p */
+
+/* COMENÇANDO ABA SEVIÇOS*/
+
+
+/* FECHANDO ABA CONTATO*/
+
+/* COMEÇANDO ABA CONTATO*/
+
+form{
+    border: 1px solid;
+    align-items: center;
+    width: 280px;
+    height: 430px;
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+    font-family: 'Sono', sans-serif;
+}
+
+.name input,.email input,.number input,.message textarea{
+    width: 260px;
+}
+
+
+.titulo{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.number input{
+    appearance: none;
+}
+
+.number input::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input{
+    text-align: center;
+}
+
+.texto{
+    resize: none;
+    height: 80px;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 20px;
+}
+
+/* FECHANDO ABA CONTATO*/
